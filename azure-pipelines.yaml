@@ -21,7 +21,7 @@ stages:
       vmImage: ubuntu-latest
     steps:
     - displayName: Setup environment dependencies
-    - task: Bash@3
+      task: Bash@3
       inputs:
         filePath: pipeline-setup.sh 
     - displayName: Setup ansible
